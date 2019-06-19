@@ -10,5 +10,5 @@
 #    groceries[:dairy] + groceries[:vegetable] + groceries[:meat] + groceries[:grains]
 #end
 def second_challenge
-groceries.values
+groceries.values.flatten
 end
