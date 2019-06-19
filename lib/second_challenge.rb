@@ -1,11 +1,15 @@
-def second_challenge
-  groceries = {
-   dairy: ["milk", "yogurt", "cheese"],
-   vegetable: ["carrots", "broccoli", "cucumbers"],
-   meat: ["chicken", "steak", "salmon"],
-   grains: ["rice", "pasta"]
-  }
+#def second_challenge
+#  groceries = {
+#   dairy: ["milk", "yogurt", "cheese"],
+#   vegetable: ["carrots", "broccoli", "cucumbers"],
+#   meat: ["chicken", "steak", "salmon"],
+#   grains: ["rice", "pasta"]
+#  }
 
   #code your solution here!
-    groceries[:dairy] + groceries[:vegetable] + groceries[:meat] + groceries[:grains]
+#    groceries[:dairy] + groceries[:vegetable] + groceries[:meat] + groceries[:grains]
+#end
+def second_challenge
+groceries[:dairy].values + groceries[:vegetable].values + groceries[:meat].values + groceries[:grains].values
+
 end
